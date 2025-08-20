@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ការបង់ប្រាក់ជោគជ័យ</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous" />
+    <!-- Icon bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" />
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="../asset/css/style.css" />
+    <!-- Font awsome -->
+    <link rel="stylesheet" href="../asset/font/fontawesome-6.2.0 icon pro/fontawesome-6.2.0/css/all.css" />
+    <!--Google Font -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&family=Koh+Santepheap:wght@100;300;400;700;900&display=swap"
+        rel="stylesheet" />
+</head>
+<style>
+    body.fade-out {
+        opacity: 0;
+        transition: opacity 0.5s ease;
+    }
+</style>
+
+<body>
+    <main>
+        <section class="mt-md-6">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12">
+                        <div class="card border-0"> 
+                            <div class="card-body">
+                                <div class="d-flex justify-content-center">
+                                    <i class="bi bi-patch-check-fill text-center fs-6 text-success"></i>
+                                </div>
+                                <h1 class="text-center">ការបញ្ចាទិញរបស់អ្នកបានសម្រេច</h1>
+                                <p class="text-center">សូមចុចប៊ូតុងខាងក្រោមដើម្បីចូលទៅគេហទំព័រដើម</p>
+                                <div class="d-flex justify-content-center">
+                                    <a href="indexTwo.html" class="btn btn-danger mt-3" id="redirectBtn">គេហទំព័រដើម</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+        crossorigin="anonymous"></script>
+    <script>
+        document.getElementById('redirectBtn').addEventListener('click', function (e) {
+            e.preventDefault();
+
+            document.body.classList.add('fade-out');
+            setTimeout(() => {
+                window.location.href = this.href;
+            }, 500);
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>បង្កើតគណនី</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <!-- CSS Style -->
+    <link rel="stylesheet" href="../asset/css/style.css">
+    <!--Google Font -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&family=Koh+Santepheap:wght@100;300;400;700;900&display=swap"
+        rel="stylesheet">
+    <!-- Icon bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <!-- Font awsome -->
+    <link rel="stylesheet" href="asset/font/fontawesome-6.2.0 icon pro/fontawesome-6.2.0/css/all.css">
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <section class="mt-md-6" data-aos="fade-up" data-aos-duration="2000">
+            <div class="container ">
+                <div class="row">
+                    <div class="col-lg-6 align-items-center d-none d-lg-block">
+                        <div class="card border-0">
+                            <div class="card-body">
+                                <img src="../asset/img/signup.avif" alt="" class="image">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-lg-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h1 class="text-center">
+                                    បង្កើតគណនី
+                                </h1>
+                                <form action="" method="" class="needs-validation" novalidate>
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <div class="mt-3">
+                                                <label for="firstname"
+                                                    class="form-label fw-bold text-darkRed">នាមត្រកូល</label>
+                                                <input type="text" class="form-control" id="firstname" name="firstname"
+                                                    placeholder="នាមត្រកូល" required>
+                                                <div class="invalid-feedback">
+                                                    សូមបំពេញត្រកូលរបស់អ្នក
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="mt-3">
+                                                <label for="lastname"
+                                                    class="form-label fw-bold text-darkRed">នាមខ្លួន</label>
+                                                <input type="text" class="form-control" id="lastname" name="lastname"
+                                                    placeholder="នាមខ្លួន" required>
+                                                <div class="invalid-feedback">
+                                                    សូមបំពេញឈ្មោះរបស់អ្នក
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <div class="mt-3">
+                                                <label for="email" class="form-label fw-bold text-darkRed">
+                                                    អុីម៉ៃល
+                                                </label>
+                                                <input type="email" id="email" name="email" class="form-control"
+                                                    placeholder="example@gmail.com" required>
+                                                <div class="invalid-feedback">
+                                                    សូមបំពេញអុីម៉ៃលរបស់អ្នក
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <div class="mt-3">
+                                                <label for="pw"
+                                                    class="form-label fw-bold text-darkRed">លេខសម្ងាត់</label>
+                                                <input type="password" class="form-control" name="pw" id="pw"
+                                                    placeholder="លេខសម្ងាត់" required>
+                                                <div class="invalid-feedback">
+                                                    សូមបំពេញលេខសម្ងាត់របស់អ្នក
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="mt-3">
+                                                <label for="pws"
+                                                    class="form-label fw-bold text-darkRed">ផ្ទៀងផ្ទាត់លេខសម្ងាត់</label>
+                                                <input type="password" class="form-control" name="pws" id="pws"
+                                                    placeholder="លេខសម្ងាត់" required>
+                                                <div class="invalid-feedback">
+                                                    សូមបំពេញលេខសម្ងាត់របស់អ្នកឲ្យត្រឹមត្រូវ
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <button type="button" class="bg-darkRed text-light butt py-1 border-0 mt-3"
+                                                style="width: 100%" id="signUpBtn">
+                                                បង្កើតគណនី
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                                <hr>
+                                <p class="text-center">
+                                    មានគណនីរួចហើយមែនទេ? <span><a href="login.html"
+                                            class="fw-bold text-decoration-none text-danger aHover">ចូលប្រើប្រាស់</a></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+        crossorigin="anonymous"></script>
+    <script>
+        // Example starter JavaScript for disabling form submissions if there are invalid fields
+        (() => {
+            'use strict'
+
+            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+            const forms = document.querySelectorAll('.needs-validation')
+
+            // Loop over them and prevent submission
+            Array.from(forms).forEach(form => {
+                form.addEventListener('submit', event => {
+                    if (!form.checkValidity()) {
+                        event.preventDefault()
+                        event.stopPropagation()
+                    }
+
+                    form.classList.add('was-validated')
+                }, false)
+            })
+        })()
+
+        // Sign Up Button 
+        document.getElementById("signUpBtn").addEventListener("click", function () {
+            const form = document.querySelector(".needs-validation");
+            if (form.checkValidity()) {
+                window.location.href = "login.html";
+            } else {
+                form.classList.add("was-validated");
+            }
+        });
+    </script>
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

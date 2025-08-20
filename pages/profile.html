@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>គណនីផ្ទាល់ខ្លួន</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous" />
+    <!-- Icon bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" />
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="../asset/css/style.css" />
+    <!-- Font awsome -->
+    <link rel="stylesheet" href="../asset/font/fontawesome-6.2.0 icon pro/fontawesome-6.2.0/css/all.css" />
+    <!--Google Font -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&family=Koh+Santepheap:wght@100;300;400;700;900&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+    <!-- Header -->
+    <div class="bg-danger py-1">
+        <div class="container">
+            <div class="d-flex justify-content-between">
+                <div>
+                    <a href="" class="text-decoration-none text-light"><i class="bi bi-headphones"></i> +855 110 900
+                        888</a>
+                </div>
+                <div>
+                    <a href="" class="text-decoration-none text-light"><i class="bi bi-facebook"></i></a>
+                    <a href="" class="text-decoration-none text-light m-2"><i class="bi bi-instagram"></i></a>
+                    <a href="" class="text-decoration-none text-light"><i class="bi bi-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <header class="sticky-top z-3">
+        <nav class="navbar navbar-expand-sm navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="indexTwo.html">
+                    <img src="../asset/img/logo.png" style="height: 50px;" alt="">
+                </a>
+                <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas navbar-offcanvas offcanvas-start" id="collapsibleNavId" data-bs-backdrop="static">
+                    <div class="offcanvas-header">
+                        <button type="btn" class="btn-close bg-light" data-bs-dismiss="offcanvas"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link hvr-underline-from-center" href="indexTwo.html"
+                                    aria-current="page">ទំព័រដើម<span class="visually-hidden">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link hvr-underline-from-center" href="menu.html">បញ្ចីមុខទំនិញ</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link hvr-underline-from-center" href="aboutUs.html">អំពីពួកយើង</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link hvr-underline-from-center" href="contactUs.html">ទំនាក់ទំនង</a>
+                            </li>
+                        </ul>
+                        <div class="d-flex align-items-center gap-4">
+                            <!-- Profile -->
+                            <div>
+                                <a class="nav-link fs-5" href="profile.html"><i class="bi bi-person"></i></a>
+                            </div>
+                            <!-- Cart -->
+                            <div class="position-relative">
+                                <a class="nav-link fs-5" href="cart.html">
+                                    <i class="bi bi-cart"></i>
+                                    <span
+                                        class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
+                                        style="font-size: 10px; padding: 2px 6px;">
+                                        3
+                                    </span>
+                                </a>
+                            </div>
+
+                            <!-- Log out -->
+                            <div>
+                                <a href="../index.html" class="nav-link fs-5"><i
+                                        class="fa-solid fa-right-from-bracket"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- End of Header -->
+
+    <!-- Main -->
+    <main>
+        <section>
+            <div class="container">
+                <div class="row mt-5 d-flex justify-content-center">
+                    <div class="col-lg-8">
+                        <h3>
+                            ព័ត៌មានផ្ទាល់ខ្លួន <i class="bi bi-info-circle text-danger"></i>
+                        </h3>
+                        <div class="mt-3">
+                            <label for="" class="form-label fw-bold text-danger">នាមខ្លួន</label>
+                            <input type="text" class="form-control" id="firstname" name="firstname" value="មាលា"
+                                readonly>
+                        </div>
+                        <div class="mt-3">
+                            <label for="" class="form-label fw-bold text-danger">នាមត្រកូល</label>
+                            <input type="text" class="form-control" id="lastname" name="lastname" value="សុខា" readonly>
+                        </div>
+                        <!-- Save button -->
+                        <button class="mt-3 btn btn-danger" type="button" disabled>
+                            <i class="bi bi-save"></i> រក្សាទុកព័ត៌មាន
+                        </button>
+                        <hr>
+                        <h3 class="mt-5">
+                            អ៊ីម៉ែល <i class="bi bi-envelope text-danger"></i>
+                        </h3>
+                        <div class="mt-3">
+                            <label for="" class="form-label fw-bold text-danger">អ៊ីម៉ែល</label>
+                            <input type="email" class="form-control" id="email" name="email" value="melea@gmail.com"
+                                readonly>
+                        </div>
+                        <!-- Verify button -->
+                        <button class="mt-3 btn btn-danger" type="button" disabled>
+                            <i class="bi bi-check-circle"></i> ផ្ទៀងផ្ទាត់អ៊ីម៉ែល
+                        </button>
+                        <hr>
+                        <h3 class="mt-5">
+                            លេខទូរស័ព្ទ <i class="bi bi-telephone text-danger"></i>
+                        </h3>
+                        <div class="mt-3">
+                            <label for="" class="form-label fw-bold text-danger">លេខទូរស័ព្ទ</label>
+                            <input type="tel" class="form-control" id="phone" name="phone" value="+855 12 345 678"
+                                readonly>
+                        </div>
+                        <!-- Verify button -->
+                        <button class="mt-3 btn btn-danger" type="button" disabled>
+                            <i class="bi bi-check-circle"></i> ផ្ទៀងផ្ទាត់លេខទូរស័ព្ទ
+                        </button>
+                        <hr>
+                        <!-- Password -->
+                        <h3 class="mt-5">
+                            លេខសម្ងាត់ <i class="bi bi-lock text-danger"></i>
+                        </h3>
+                        <div class="mt-3">
+                            <label for="" class="form-label fw-bold text-danger">លេខចាស់</label>
+                            <input type="text" class="form-control" id="password" name="password"
+                                value="123Hello" >
+                        </div>
+                        <div class="mt-3">
+                            <label for="" class="form-label fw-bold text-danger">លេខថ្មី</label>
+                            <input type="text" class="form-control" id="newpassword" name="newpassword"
+                                placeholder="បញ្ចូលលេខសម្ងាត់ថ្មី">
+                        </div>
+                        <!-- Verify -->
+                        <button class="mt-3 btn btn-danger" type="button" disabled>
+                            <i class="bi bi-check-circle"></i> ផ្ទៀងផ្ទាត់លេខសម្ងាត់
+                        </button>
+                        <hr>
+                        <!-- Payment -->
+                        <h3 class="mt-5">
+                            វិធីសាស្ត្រទូទាត់ <i class="bi bi-credit-card text-danger"></i>
+                        </h3>
+                        <div class="mt-3 d-flex justify-content-between align-items-center">
+                            <img src="../asset/img/payment/visa.png" style="height: 30px;" alt="">
+                            <p class="text-secondary">
+                                XXXX-XXXX-XXXX-1234
+                            </p>
+                            <button class="btn btn-danger" type="button" disabled>
+                                <i class="bi bi-pencil-square"></i> កែប្រែ
+                            </button>
+                        </div>
+                        <div class="mt-3 d-flex justify-content-between align-items-center">
+                            <img src="../asset/img/payment/master.png" style="height: 30px;" alt="">
+                            <p class="text-secondary">
+                                XXXX-XXXX-XXXX-5678
+                            </p>
+                            <button class="btn btn-danger" type="button" disabled>
+                                <i class="bi bi-pencil-square"></i> កែប្រែ
+                            </button>
+                        </div>
+                        <hr>
+                        <!-- Account management -->
+                        <h3 class="mt-5">
+                            ការគ្រប់គ្រងគណនី <i class="bi bi-gear text-danger"></i>
+                        </h3>
+                        <p>
+                            អ្នកអាចលុបគណនីរបស់អ្នក និងទិន្នន័យផ្ទាល់ខ្លួនដែលពាក់ព័ន្ធជាមួយវា។
+                        </p>
+                        <button class="btn btn-danger" type="button" disabled>
+                            <i class="bi bi-trash"></i> លុបគណនី
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- End of Main -->
+
+    <!-- Footer -->
+    <footer class="mt-5 bg-danger" data-aos="fade-up" data-aos-duration="2000">
+        <div class="container">
+            <div class="row gy-2 justify-content-center py-3">
+                <div class="col-lg-3">
+                    <img src="../asset/img/logoo.png" style="height: 100px;" alt="">
+                    <p class="text-light">
+                        យើងជាហាងលក់នំខេក និងនំប៉័ងដែលមានរសជាតិឆ្ងាញ់បំផុត។
+                        យើងធ្វើនំប៉័ងថ្មីៗជារៀងរាល់ថ្ងៃ។
+                        យើងធានាថានំប៉័ងរបស់យើងមានរសជាតិឆ្ងាញ់ និងសុវត្ថិភាព។
+                    </p>
+                </div>
+                <div class="col-lg-4">
+                    <h4 class="text-light">
+                        គេហទំព័រផ្សេងៗ
+                    </h4>
+                    <ul class="list-unstyled">
+                        <li class="list-unstyled text-hover">
+                            <a href="indexTwo.html" class="text-decoration-none text-light">ទំព័រដើម</a>
+                        </li>
+                        <li class="list-unstyled text-hover">
+                            <a href="menu.html" class="text-decoration-none text-light">បញ្ចីមុខទំនិញ</a>
+                        </li>
+                        <li class="list-unstyled text-hover">
+                            <a href="aboutUs.html" class="text-decoration-none text-light">អំពីពួកយើង</a>
+                        </li>
+                        <li class="list-unstyled text-hover">
+                            <a href="contactUs.html" class="text-decoration-none text-light">ទំនាក់ទំនង</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <h4 class="text-light">ទំនាក់ទំនង</h4>
+                    <ul class="list-unstyled">
+                        <li class="list-unstyled text-hover">
+                            <i class="fa-solid fa-phone text-light"></i>
+                            <a href="tel:+85512345678" class="text-decoration-none text-light">+855 12 345 678</a>
+                        </li>
+                        <li class="list-unstyled text-hover">
+                            <i class="fa-solid fa-envelope text-light"></i>
+                            <a href="mailto:deei200@gmail.com" class="text-light">deei200@gmail.com</a>
+                        </li>
+                        <hr>
+                        <div class="d-flex">
+                            <a href="https://www.facebook.com/deei200" target="_blank" class="text-decoration-none">
+                                <i class="fa-brands fa-facebook fs-5 text-light icon-link-fb"></i>
+                            </a>
+                            <a href="https://www.instagram.com/deei200" target="_blank"
+                                class="text-decoration-none">
+                                <i class="fa-brands fa-instagram fs-5 text-light ms-3 icon-link-ig"></i>
+                            </a>
+                            <!-- Twitter -->
+                            <a href="https://twitter.com/deei200" target="_blank" class="text-decoration-none">
+                                <i class="fa-brands fa-twitter fs-5 text-light ms-3 icon-link-twitter"></i>
+                            </a>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+            <hr class="text-light">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <p class="text-light">
+                        &copy; ២០២៥ The Cake រក្សាសិទ្ធិគ្រប់យ៉ាង
+                        <br>
+                        រចនាបទដោយ <a href="#" class="text-decoration-none text-light">ទេពី</a>
+                    </p>
+                </div>
+            </div>
+    </footer>
+    <!-- End of Footer -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
